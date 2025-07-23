@@ -14,9 +14,19 @@ def get_default_extensions() -> dict[str, list[str]]:
     return {
         "imagens": [".jpg", ".png", ".jpeg", ".gif"],
         "videos": [".mp4", ".mkv", ".mov", ".flv"],
-        "docs": [".pdf", ".xls", ".xlsx", ".docx", ".doc", ".txt", ".ppt", ".pptx"],
+        "docs": [
+            ".pdf",
+            ".xls",
+            ".xlsx",
+            ".docx",
+            ".doc",
+            ".txt",
+            ".ppt",
+            ".pptx",
+            ".csv",
+        ],
         "archives": [".zip", ".rar", ".7z"],
-        "setups": [".exe", ".msi"],
+        "setups": [".exe", ".msi", ".deb"],
         "Others": [],
     }
 
