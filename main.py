@@ -25,7 +25,7 @@ def get_default_extensions() -> dict[str, list[str]]:
             ".pptx",
             ".csv",
         ],
-        "archives": [".zip", ".rar", ".7z"],
+        "archives": [".zip", ".rar", ".7z", ".gz"],
         "setups": [".exe", ".msi", ".deb"],
         "Others": [],
     }
